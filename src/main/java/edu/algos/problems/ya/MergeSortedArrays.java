@@ -1,11 +1,11 @@
-package edu.algos.problems;
+package edu.algos.problems.ya;
 
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Scanner;
 
 public class MergeSortedArrays {
-    private final static HashMap<Integer, Integer> distinctNum = new HashMap<>();
+    private static final HashMap<Integer, Integer> distinctNum = new HashMap<>();
 
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {

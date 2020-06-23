@@ -1,7 +1,12 @@
 package edu.algos.sorting;
 
-public class BubbleSort {
+
+import java.util.Arrays;
+
+public class BbubbleSort {
     public static void main(String[] args) {
+        int[] a = {-1, 6, 10, -10, 2, 1, 0, 5, 9, 3};
+        System.out.println(Arrays.toString(new BbubbleSort().bubbleSort(a)));
     }
 
     public int[] bubbleSort(int[] data) {

@@ -1,4 +1,4 @@
-package edu.algos.problems;
+package edu.algos.problems.fb;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -10,9 +10,8 @@ public class FBPairSums {
         new FBPairSums().run();
     }
 
-
     private int sumsToTarget(int[] arr, int k) {
-        Map<Integer, Integer> freqMap = new HashMap<Integer, Integer>();
+        Map<Integer, Integer> freqMap = new HashMap<>();
         int pairSum = 0;
 
         // O(n)

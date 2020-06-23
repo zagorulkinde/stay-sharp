@@ -1,4 +1,4 @@
-package edu.algos.problems;
+package edu.algos.problems.ya;
 
 import java.util.Arrays;
 import java.util.Scanner;

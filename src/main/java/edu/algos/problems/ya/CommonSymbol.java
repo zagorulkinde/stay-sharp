@@ -1,15 +1,15 @@
-package edu.algos.problems;
+package edu.algos.problems.ya;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class WooHoo {
+public class CommonSymbol {
 
     public static void main(String[] args) throws Exception {
         try (BufferedReader r = new BufferedReader(new InputStreamReader(System.in))) {
-            String J = r.readLine();
-            String S = r.readLine();
-            int result = getCommonSymbol(J, S);
+            String j = r.readLine();
+            String s = r.readLine();
+            int result = getCommonSymbol(j, s);
             System.out.println(result);
         }
     }
